@@ -1,0 +1,30 @@
+# PyTorch: install the CUDA build for GPU fine-tuning and encoding, e.g.
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch>=2.11
+transformers==5.19.0
+sentence-transformers==6.1.0
+tokenizers==0.23.3
+safetensors==0.8.0
+huggingface_hub==1.33.0
+faiss-cpu==1.15.1
+scikit-learn==1.9.1
+numpy==2.5.3
+pandas==2.3.3
+pyarrow==25.0.1
+scipy==1.18.1
+joblib==1.6.0
+spacy==3.8.16
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+matplotlib==3.11.2
+mlflow==3.17.0
+requests==2.34.2
+fastapi==0.143.0
+uvicorn==0.54.0
+pydantic==2.14.0
+httpx==0.28.1
+pytest==9.1.1
+pyflakes==4.0.3
+jupyter==1.1.1
+nbformat==5.11.1
+nbconvert==7.17.1
+ipykernel==7.4.0

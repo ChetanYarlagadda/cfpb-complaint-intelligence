@@ -1,0 +1,11 @@
+[project]
+name = "cfpb-complaint-intelligence"
+version = "1.0.0"
+description = "Complaint routing, emerging-issue detection and similar-case search on CFPB money-transfer and payment-app complaint narratives."
+requires-python = ">=3.10"
+license = "MIT"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore:Using `httpx` with `starlette.testclient`"]
