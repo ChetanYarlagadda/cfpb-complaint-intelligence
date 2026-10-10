@@ -1,0 +1,170 @@
+true,predicted,count
+Confusing or misleading advertising or marketing,Confusing or misleading advertising or marketing,10
+Confusing or misleading advertising or marketing,Confusing or missing disclosures,14
+Confusing or misleading advertising or marketing,Fraud or scam,60
+Confusing or misleading advertising or marketing,Lost or stolen money order,3
+Confusing or misleading advertising or marketing,"Managing, opening, or closing your mobile wallet account",14
+Confusing or misleading advertising or marketing,Money was not available when promised,24
+Confusing or misleading advertising or marketing,Other service problem,13
+Confusing or misleading advertising or marketing,Other transaction problem,32
+Confusing or misleading advertising or marketing,Problem with customer service,18
+Confusing or misleading advertising or marketing,Trouble accessing funds in your mobile or digital wallet,22
+Confusing or misleading advertising or marketing,Unauthorized transactions or other transaction problem,64
+Confusing or misleading advertising or marketing,Unexpected or other fees,11
+Confusing or misleading advertising or marketing,Wrong amount charged or received,0
+Confusing or missing disclosures,Confusing or misleading advertising or marketing,2
+Confusing or missing disclosures,Confusing or missing disclosures,141
+Confusing or missing disclosures,Fraud or scam,249
+Confusing or missing disclosures,Lost or stolen money order,6
+Confusing or missing disclosures,"Managing, opening, or closing your mobile wallet account",145
+Confusing or missing disclosures,Money was not available when promised,84
+Confusing or missing disclosures,Other service problem,73
+Confusing or missing disclosures,Other transaction problem,251
+Confusing or missing disclosures,Problem with customer service,45
+Confusing or missing disclosures,Trouble accessing funds in your mobile or digital wallet,81
+Confusing or missing disclosures,Unauthorized transactions or other transaction problem,181
+Confusing or missing disclosures,Unexpected or other fees,36
+Confusing or missing disclosures,Wrong amount charged or received,4
+Fraud or scam,Confusing or misleading advertising or marketing,5
+Fraud or scam,Confusing or missing disclosures,78
+Fraud or scam,Fraud or scam,5270
+Fraud or scam,Lost or stolen money order,46
+Fraud or scam,"Managing, opening, or closing your mobile wallet account",199
+Fraud or scam,Money was not available when promised,267
+Fraud or scam,Other service problem,89
+Fraud or scam,Other transaction problem,702
+Fraud or scam,Problem with customer service,101
+Fraud or scam,Trouble accessing funds in your mobile or digital wallet,228
+Fraud or scam,Unauthorized transactions or other transaction problem,1814
+Fraud or scam,Unexpected or other fees,57
+Fraud or scam,Wrong amount charged or received,3
+Lost or stolen money order,Confusing or misleading advertising or marketing,0
+Lost or stolen money order,Confusing or missing disclosures,3
+Lost or stolen money order,Fraud or scam,21
+Lost or stolen money order,Lost or stolen money order,78
+Lost or stolen money order,"Managing, opening, or closing your mobile wallet account",0
+Lost or stolen money order,Money was not available when promised,10
+Lost or stolen money order,Other service problem,1
+Lost or stolen money order,Other transaction problem,16
+Lost or stolen money order,Problem with customer service,57
+Lost or stolen money order,Trouble accessing funds in your mobile or digital wallet,6
+Lost or stolen money order,Unauthorized transactions or other transaction problem,10
+Lost or stolen money order,Unexpected or other fees,0
+Lost or stolen money order,Wrong amount charged or received,0
+"Managing, opening, or closing your mobile wallet account",Confusing or misleading advertising or marketing,0
+"Managing, opening, or closing your mobile wallet account",Confusing or missing disclosures,91
+"Managing, opening, or closing your mobile wallet account",Fraud or scam,71
+"Managing, opening, or closing your mobile wallet account",Lost or stolen money order,1
+"Managing, opening, or closing your mobile wallet account","Managing, opening, or closing your mobile wallet account",660
+"Managing, opening, or closing your mobile wallet account",Money was not available when promised,28
+"Managing, opening, or closing your mobile wallet account",Other service problem,83
+"Managing, opening, or closing your mobile wallet account",Other transaction problem,55
+"Managing, opening, or closing your mobile wallet account",Problem with customer service,6
+"Managing, opening, or closing your mobile wallet account",Trouble accessing funds in your mobile or digital wallet,243
+"Managing, opening, or closing your mobile wallet account",Unauthorized transactions or other transaction problem,107
+"Managing, opening, or closing your mobile wallet account",Unexpected or other fees,10
+"Managing, opening, or closing your mobile wallet account",Wrong amount charged or received,0
+Money was not available when promised,Confusing or misleading advertising or marketing,1
+Money was not available when promised,Confusing or missing disclosures,27
+Money was not available when promised,Fraud or scam,91
+Money was not available when promised,Lost or stolen money order,1
+Money was not available when promised,"Managing, opening, or closing your mobile wallet account",37
+Money was not available when promised,Money was not available when promised,1038
+Money was not available when promised,Other service problem,51
+Money was not available when promised,Other transaction problem,420
+Money was not available when promised,Problem with customer service,20
+Money was not available when promised,Trouble accessing funds in your mobile or digital wallet,354
+Money was not available when promised,Unauthorized transactions or other transaction problem,81
+Money was not available when promised,Unexpected or other fees,22
+Money was not available when promised,Wrong amount charged or received,1
+Other service problem,Confusing or misleading advertising or marketing,4
+Other service problem,Confusing or missing disclosures,66
+Other service problem,Fraud or scam,116
+Other service problem,Lost or stolen money order,0
+Other service problem,"Managing, opening, or closing your mobile wallet account",128
+Other service problem,Money was not available when promised,93
+Other service problem,Other service problem,131
+Other service problem,Other transaction problem,117
+Other service problem,Problem with customer service,3
+Other service problem,Trouble accessing funds in your mobile or digital wallet,118
+Other service problem,Unauthorized transactions or other transaction problem,85
+Other service problem,Unexpected or other fees,11
+Other service problem,Wrong amount charged or received,0
+Other transaction problem,Confusing or misleading advertising or marketing,0
+Other transaction problem,Confusing or missing disclosures,400
+Other transaction problem,Fraud or scam,2256
+Other transaction problem,Lost or stolen money order,6
+Other transaction problem,"Managing, opening, or closing your mobile wallet account",228
+Other transaction problem,Money was not available when promised,641
+Other transaction problem,Other service problem,302
+Other transaction problem,Other transaction problem,1972
+Other transaction problem,Problem with customer service,37
+Other transaction problem,Trouble accessing funds in your mobile or digital wallet,389
+Other transaction problem,Unauthorized transactions or other transaction problem,2028
+Other transaction problem,Unexpected or other fees,67
+Other transaction problem,Wrong amount charged or received,12
+Problem with customer service,Confusing or misleading advertising or marketing,1
+Problem with customer service,Confusing or missing disclosures,14
+Problem with customer service,Fraud or scam,28
+Problem with customer service,Lost or stolen money order,36
+Problem with customer service,"Managing, opening, or closing your mobile wallet account",14
+Problem with customer service,Money was not available when promised,52
+Problem with customer service,Other service problem,9
+Problem with customer service,Other transaction problem,44
+Problem with customer service,Problem with customer service,227
+Problem with customer service,Trouble accessing funds in your mobile or digital wallet,25
+Problem with customer service,Unauthorized transactions or other transaction problem,11
+Problem with customer service,Unexpected or other fees,9
+Problem with customer service,Wrong amount charged or received,0
+Trouble accessing funds in your mobile or digital wallet,Confusing or misleading advertising or marketing,2
+Trouble accessing funds in your mobile or digital wallet,Confusing or missing disclosures,57
+Trouble accessing funds in your mobile or digital wallet,Fraud or scam,78
+Trouble accessing funds in your mobile or digital wallet,Lost or stolen money order,0
+Trouble accessing funds in your mobile or digital wallet,"Managing, opening, or closing your mobile wallet account",313
+Trouble accessing funds in your mobile or digital wallet,Money was not available when promised,265
+Trouble accessing funds in your mobile or digital wallet,Other service problem,85
+Trouble accessing funds in your mobile or digital wallet,Other transaction problem,225
+Trouble accessing funds in your mobile or digital wallet,Problem with customer service,18
+Trouble accessing funds in your mobile or digital wallet,Trouble accessing funds in your mobile or digital wallet,1536
+Trouble accessing funds in your mobile or digital wallet,Unauthorized transactions or other transaction problem,248
+Trouble accessing funds in your mobile or digital wallet,Unexpected or other fees,16
+Trouble accessing funds in your mobile or digital wallet,Wrong amount charged or received,1
+Unauthorized transactions or other transaction problem,Confusing or misleading advertising or marketing,0
+Unauthorized transactions or other transaction problem,Confusing or missing disclosures,63
+Unauthorized transactions or other transaction problem,Fraud or scam,703
+Unauthorized transactions or other transaction problem,Lost or stolen money order,2
+Unauthorized transactions or other transaction problem,"Managing, opening, or closing your mobile wallet account",107
+Unauthorized transactions or other transaction problem,Money was not available when promised,95
+Unauthorized transactions or other transaction problem,Other service problem,35
+Unauthorized transactions or other transaction problem,Other transaction problem,537
+Unauthorized transactions or other transaction problem,Problem with customer service,8
+Unauthorized transactions or other transaction problem,Trouble accessing funds in your mobile or digital wallet,153
+Unauthorized transactions or other transaction problem,Unauthorized transactions or other transaction problem,3108
+Unauthorized transactions or other transaction problem,Unexpected or other fees,65
+Unauthorized transactions or other transaction problem,Wrong amount charged or received,11
+Unexpected or other fees,Confusing or misleading advertising or marketing,0
+Unexpected or other fees,Confusing or missing disclosures,31
+Unexpected or other fees,Fraud or scam,45
+Unexpected or other fees,Lost or stolen money order,6
+Unexpected or other fees,"Managing, opening, or closing your mobile wallet account",32
+Unexpected or other fees,Money was not available when promised,36
+Unexpected or other fees,Other service problem,11
+Unexpected or other fees,Other transaction problem,59
+Unexpected or other fees,Problem with customer service,20
+Unexpected or other fees,Trouble accessing funds in your mobile or digital wallet,35
+Unexpected or other fees,Unauthorized transactions or other transaction problem,94
+Unexpected or other fees,Unexpected or other fees,159
+Unexpected or other fees,Wrong amount charged or received,8
+Wrong amount charged or received,Confusing or misleading advertising or marketing,0
+Wrong amount charged or received,Confusing or missing disclosures,10
+Wrong amount charged or received,Fraud or scam,52
+Wrong amount charged or received,Lost or stolen money order,0
+Wrong amount charged or received,"Managing, opening, or closing your mobile wallet account",5
+Wrong amount charged or received,Money was not available when promised,43
+Wrong amount charged or received,Other service problem,7
+Wrong amount charged or received,Other transaction problem,87
+Wrong amount charged or received,Problem with customer service,3
+Wrong amount charged or received,Trouble accessing funds in your mobile or digital wallet,7
+Wrong amount charged or received,Unauthorized transactions or other transaction problem,66
+Wrong amount charged or received,Unexpected or other fees,48
+Wrong amount charged or received,Wrong amount charged or received,11

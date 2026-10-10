@@ -1,0 +1,31 @@
+topic,label,top_terms,complaints,distinct_groups,share_in_campaign_groups,top_issue,top_company,share_2025_on
+0,"cash app, cash, app, cashapp","cash app, cash, app, cashapp, money, refund",1515,1506,0.0000,Fraud or scam,"Block, Inc.",0.7281
+1,"dispute, payment, credit, complaint","dispute, payment, credit, complaint, company, transaction",3024,2904,0.0000,Fraud or scam,"Block, Inc.",0.5311
+2,"money, payment, sent, pay","money, payment, sent, pay, company, card",2963,2869,0.0000,Fraud or scam,"Block, Inc.",0.5241
+3,"paypal, account, money, funds","paypal, account, money, funds, paypal account, payment",1486,1412,0.0000,Unauthorized transactions or other transaction problem,"Paypal Holdings, Inc",0.3156
+4,"unfair, act, financial, cash app","unfair, act, financial, cash app, cash, resolution",27482,945,0.9630,Other transaction problem,"Block, Inc.",0.9999
+5,"wire, bank, transfer, wire transfer","wire, bank, transfer, wire transfer, account, funds",2369,2344,0.0000,Other transaction problem,"BANK OF AMERICA, NATIONAL ASSOCIATION",0.3508
+6,"transfer, money, bank, account","transfer, money, bank, account, funds, wise",2356,2312,0.0000,Money was not available when promised,TransferWise Ltd,0.4223
+7,"zelle, concerns, cfpb, lawsuit","zelle, concerns, cfpb, lawsuit, zelle failed, using zelle",16776,3954,0.7586,Other transaction problem,"Early Warning Services, LLC",0.9669
+8,"venmo, account, venmo account, money","venmo, account, venmo account, money, email, funds",2374,2335,0.0000,Trouble accessing funds in your mobile or digital wallet,"Paypal Holdings, Inc",0.2506
+9,"account, money, closed, email","account, money, closed, email, funds, access",2643,2623,0.0000,Other transaction problem,"Block, Inc.",0.5437
+10,"coinbase, account, access, support","coinbase, account, access, support, coinbase account, email",1190,1184,0.0000,Other transaction problem,"Coinbase, Inc.",0.2092
+11,"cash, cash app, app, dispute","cash, cash app, app, dispute, cashapp, refund",1232,1214,0.0000,Unauthorized transactions or other transaction problem,"Block, Inc.",0.7386
+12,"paypal, seller, refund, dispute","paypal, seller, refund, dispute, item, buyer",1746,1725,0.0000,Unauthorized transactions or other transaction problem,"Paypal Holdings, Inc",0.5607
+13,"crypto, gemini, binance, com","crypto, gemini, binance, com, account, withdraw",2221,2112,0.0000,Fraud or scam,Winklevoss Exchange LLC,0.2400
+14,"coinbase, account, coinbase account, wallet","coinbase, account, coinbase account, wallet, support, funds",2423,2128,0.1061,Fraud or scam,"Coinbase, Inc.",0.2922
+15,"check, bank, checks, deposit","check, bank, checks, deposit, told, deposited",2332,2307,0.0000,Fraud or scam,"BANK OF AMERICA, NATIONAL ASSOCIATION",0.3392
+16,"chase, chase bank, bank, account","chase, chase bank, bank, account, wire, money",2693,2639,0.0000,Fraud or scam,JPMORGAN CHASE & CO.,0.3557
+17,"money, refund, moneygram, bank","money, refund, moneygram, bank, western, western union",2682,2645,0.0000,Other transaction problem,"WESTERN UNION COMPANY, THE",0.4471
+18,"cash, cash app, app, cashapp","cash, cash app, app, cashapp, money, account",1578,1570,0.0000,Unauthorized transactions or other transaction problem,"Block, Inc.",0.6065
+19,"paypal, account, paypal account, unauthorized","paypal, account, paypal account, unauthorized, transaction, transactions",2052,2023,0.0000,Fraud or scam,"Paypal Holdings, Inc",0.4664
+20,"paypal, account, paypal account, permanently","paypal, account, paypal account, permanently, limited, email",2272,1693,0.2086,"Managing, opening, or closing your mobile wallet account","Paypal Holdings, Inc",0.1585
+21,"app, cash app, cash, account","app, cash app, cash, account, cashapp, closed",2666,2652,0.0000,Fraud or scam,"Block, Inc.",0.7963
+22,"account, phone, card, number","account, phone, card, number, money, app",2044,2014,0.0000,Fraud or scam,"Block, Inc.",0.4995
+23,"paypal, account, limitation, paypal account","paypal, account, limitation, paypal account, funds, permanently",1657,1566,0.0000,"Managing, opening, or closing your mobile wallet account","Paypal Holdings, Inc",0.5063
+24,"chime, chime account, account, dispute","chime, chime account, account, dispute, money, sent",1284,1277,0.0000,Fraud or scam,Chime Financial Inc,0.6636
+25,"funds, account, bank, transfer","funds, account, bank, transfer, square, financial",2550,2504,0.0000,Other transaction problem,"Block, Inc.",0.5871
+26,"bank, money, fraud, account","bank, money, fraud, account, america, bank america",5366,5067,0.0201,Fraud or scam,"BANK OF AMERICA, NATIONAL ASSOCIATION",0.3565
+27,"wells, fargo, wells fargo, fraud","wells, fargo, wells fargo, fraud, wire, account",2502,2426,0.0000,Fraud or scam,WELLS FARGO & COMPANY,0.3529
+28,"robinhood, account, robinhood account, restricted","robinhood, account, robinhood account, restricted, funds, support",1210,1205,0.0000,Other transaction problem,ROBINHOOD MARKETS INC.,0.5868
+29,"cash, cash app, app, account","cash, cash app, app, account, cashapp, transactions",2378,2339,0.0000,Fraud or scam,"Block, Inc.",0.7473

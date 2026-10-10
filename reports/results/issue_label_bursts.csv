@@ -1,0 +1,12 @@
+topic,month,count,expected,ratio,p_value,q_value,burst,issue
+1,2022-11,36,17.7545,2.0277,0.0001,0.0020,True,Confusing or missing disclosures
+1,2023-01,61,18.4566,3.3051,0.0000,0.0000,True,Confusing or missing disclosures
+1,2023-02,41,15.5399,2.6384,0.0000,0.0000,True,Confusing or missing disclosures
+6,2022-05,165,66.2860,2.4892,0.0000,0.0000,True,"Managing, opening, or closing your mobile wallet account"
+9,2025-01,36925,7512.6810,4.9150,0.0000,0.0000,True,Other transaction problem
+9,2025-02,3130,875.7385,3.5741,0.0000,0.0000,True,Other transaction problem
+9,2025-03,920,404.0455,2.2770,0.0000,0.0000,True,Other transaction problem
+9,2025-10,1256,599.9083,2.0937,0.0000,0.0000,True,Other transaction problem
+13,2023-09,79,0.5281,149.5863,0.0000,0.0000,True,Trouble accessing funds in your mobile or digital wallet
+13,2023-10,83,0.6155,134.8398,0.0000,0.0000,True,Trouble accessing funds in your mobile or digital wallet
+13,2023-11,67,4.3995,15.2291,0.0000,0.0000,True,Trouble accessing funds in your mobile or digital wallet

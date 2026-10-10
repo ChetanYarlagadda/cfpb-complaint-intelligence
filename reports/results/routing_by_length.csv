@@ -1,0 +1,3 @@
+length,n,share,macro_f1_tfidf,macro_f1_distilbert,accuracy_tfidf,accuracy_distilbert
+<= 256 tokens (read in full),23485,0.7242,0.3101,0.2903,0.4092,0.3533
+> 256 tokens (truncated),8944,0.2758,0.3732,0.3469,0.5288,0.4637

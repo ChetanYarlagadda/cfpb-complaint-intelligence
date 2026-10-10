@@ -1,0 +1,11 @@
+check,value
+documents checked,400.0000
+ORG entities per document (mean),4.2525
+ORG: share of ORG entities that are only a redaction mark (XXXX),0.4515
+MONEY: share of brace amounts recovered,1.0000
+MONEY: share of extracted amounts that match a brace amount,1.0000
+DATE: share of documents whose text contains a redacted date (XX/XX/XXXX),0.4575
+DATE: DATE entities per document (mean),0.8600
+DATE: share of DATE entities that are redacted dates (XX/XX/XXXX),0.0000
+documents naming their company (alias list),269.0000
+ORG: share of those where an ORG entity names the company,0.4461

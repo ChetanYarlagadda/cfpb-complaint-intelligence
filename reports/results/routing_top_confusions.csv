@@ -1,0 +1,9 @@
+true,predicted,count,share_of_true,model
+Other transaction problem,Fraud or scam,2256,0.2706,TF-IDF + LR
+Other transaction problem,Unauthorized transactions or other transaction problem,2028,0.2432,TF-IDF + LR
+Fraud or scam,Unauthorized transactions or other transaction problem,1814,0.2048,TF-IDF + LR
+Unauthorized transactions or other transaction problem,Fraud or scam,703,0.1439,TF-IDF + LR
+Fraud or scam,Other transaction problem,702,0.0792,TF-IDF + LR
+Other transaction problem,Money was not available when promised,641,0.0769,TF-IDF + LR
+Unauthorized transactions or other transaction problem,Other transaction problem,537,0.1099,TF-IDF + LR
+Money was not available when promised,Other transaction problem,420,0.1959,TF-IDF + LR

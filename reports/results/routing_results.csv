@@ -1,0 +1,7 @@
+model,protocol,macro_f1,accuracy,top2_accuracy,n,macro_f1_sd
+TF-IDF + LR,temporal test (deduplicated),0.3283,0.4422,0.6457,32429,
+DistilBERT (fine-tuned),temporal test (deduplicated),0.3066,0.3838,0.5868,32429,
+TF-IDF + LR,validation (late 2024),0.3385,,,1771,
+DistilBERT (fine-tuned),validation (late 2024),0.3199,,,1771,
+TF-IDF + LR,random 5-fold CV inside 2023-2024,0.3735,,,15936,0.0176
+TF-IDF + LR,temporal test incl. template copies,0.2646,0.2187,,72222,

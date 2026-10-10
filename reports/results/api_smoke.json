@@ -1,0 +1,32 @@
+{
+  "example": "I sent $450 through Zelle to pay for a puppy advertised online. After I paid, the seller stopped responding. My bank says it cannot reverse the payment because I authorized it.",
+  "route_top3": [
+    {
+      "issue": "Fraud or scam",
+      "probability": 0.5376296876242695
+    },
+    {
+      "issue": "Unauthorized transactions or other transaction problem",
+      "probability": 0.1836338898135294
+    },
+    {
+      "issue": "Other transaction problem",
+      "probability": 0.10228289724485215
+    }
+  ],
+  "similar_top3_issues": [
+    "Fraud or scam",
+    "Fraud or scam",
+    "Fraud or scam"
+  ],
+  "similar_reranked_top3_issues": [
+    "Fraud or scam",
+    "Fraud or scam",
+    "Fraud or scam"
+  ],
+  "median_latency_ms": {
+    "route_tfidf": 1.4075500002945773,
+    "similar": 13.913549999415409,
+    "similar_rerank_top20": 52.37259999921662
+  }
+}
