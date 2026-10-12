@@ -1,5 +1,7 @@
 # Fintech Complaint Intelligence
 
+[![CI](https://github.com/ChetanYarlagadda/cfpb-complaint-intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/ChetanYarlagadda/cfpb-complaint-intelligence/actions/workflows/ci.yml)
+
 **Can a payments company's complaint team route, monitor and search consumer complaints automatically, and what
 gets in the way?** This project builds and evaluates the three tools such a team needs on 107,066 real complaints
 about money transfers, payment apps and virtual currency filed with the U.S. Consumer Financial Protection Bureau
