@@ -42,6 +42,7 @@ class Case:
 
 class Engine(Protocol):
     router_name: str
+    can_rerank: bool
 
     def route(self, text: str, k: int) -> list[IssueScore]: ...
 
@@ -75,6 +76,7 @@ class ComplaintEngine:
         self.index = faiss.IndexFlatIP(emb.shape[1])
         self.index.add(emb)
         self.reranker = Reranker() if reranker else None
+        self.can_rerank = self.reranker is not None
         self.rerank_depth = rerank_depth
 
     def route(self, text: str, k: int = 3) -> list[IssueScore]:
@@ -90,7 +92,7 @@ class ComplaintEngine:
         return [IssueScore(self.labels[i], float(proba[i])) for i in top]
 
     def similar(self, text: str, k: int = 5, rerank: bool = False) -> list[Case]:
-        """Nearest 2023-24 complaints by embedding cosine, optionally reordered by the cross-encoder."""
+        """Nearest 2023-24 complaints by embedding cosine, reordered by the cross-encoder if `rerank` and one is loaded."""
         text = clean_text(text)
         q = self.embedder.encode([text])
         depth = max(k, self.rerank_depth) if rerank and self.reranker else k

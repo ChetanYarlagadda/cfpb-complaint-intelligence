@@ -53,7 +53,7 @@ class CaseOut(BaseModel):
 
 
 class SimilarResponse(BaseModel):
-    reranked: bool
+    reranked: bool = Field(description="true if the cross-encoder reordered the cases and `score` is its logit; false if `score` is cosine")
     latency_ms: float
     cases: list[CaseOut]
 
@@ -91,9 +91,10 @@ def create_app(engine_factory: Callable[[], Engine]) -> FastAPI:
     @app.post("/similar", response_model=SimilarResponse)
     def similar(req: SimilarRequest, request: Request) -> SimilarResponse:
         t0 = time.perf_counter()
-        cases = request.app.state.engine.similar(req.text, k=req.k, rerank=req.rerank)
+        engine = request.app.state.engine
+        cases = engine.similar(req.text, k=req.k, rerank=req.rerank)
         return SimilarResponse(
-            reranked=req.rerank,
+            reranked=req.rerank and engine.can_rerank,
             latency_ms=round((time.perf_counter() - t0) * 1000, 2),
             cases=[CaseOut(**c.__dict__) for c in cases],
         )

@@ -6,6 +6,7 @@ from app.main import create_app
 
 class FakeEngine:
     router_name = "fake"
+    can_rerank = True
 
     def route(self, text: str, k: int) -> list[IssueScore]:
         return [IssueScore(f"issue {i}", 1.0 / (i + 2)) for i in range(k)]
@@ -14,8 +15,12 @@ class FakeEngine:
         return [Case(str(i), "2024-01-01", "Fraud or scam", "Mobile or digital wallet", "Co", text[:10], 1.0 - i / 10) for i in range(k)]
 
 
-def client() -> TestClient:
-    return TestClient(create_app(FakeEngine))
+class NoRerankerEngine(FakeEngine):
+    can_rerank = False
+
+
+def client(engine: type[FakeEngine] = FakeEngine) -> TestClient:
+    return TestClient(create_app(engine))
 
 
 TEXT = "I sent money with a payment app and never received the item I paid for."
@@ -41,6 +46,14 @@ def test_similar_returns_cases():
         assert r.status_code == 200
         body = r.json()
         assert body["reranked"] is True and len(body["cases"]) == 3
+
+
+def test_reranked_reports_what_ran_not_what_was_asked():
+    with client() as c:
+        assert c.post("/similar", json={"text": TEXT, "rerank": False}).json()["reranked"] is False
+    with client(NoRerankerEngine) as c:  # service started with COMPLAINTIQ_RERANKER=0: scores stay cosine
+        r = c.post("/similar", json={"text": TEXT, "rerank": True})
+        assert r.status_code == 200 and r.json()["reranked"] is False
 
 
 def test_requests_are_validated():

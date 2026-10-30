@@ -254,7 +254,8 @@ curl -X POST localhost:8000/similar -H "Content-Type: application/json" \
 ```
 
 `COMPLAINTIQ_ROUTER=distilbert` switches the router to the fine-tuned model and `COMPLAINTIQ_RERANKER=0` skips
-loading the cross-encoder. In an in-process check ([`scripts/api_smoke.py`](scripts/api_smoke.py),
+loading the cross-encoder; `/similar` then ignores `"rerank": true` and answers with `"reranked": false` and cosine
+scores. In an in-process check ([`scripts/api_smoke.py`](scripts/api_smoke.py),
 [`api_smoke.json`](reports/results/api_smoke.json)) the median latency was 1.4 ms for `/route`, 14 ms for
 `/similar` and 52 ms for `/similar` with reranking of the top 20 (RTX 4050 laptop).
 
